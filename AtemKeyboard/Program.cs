@@ -67,7 +67,7 @@ namespace AtemKeyboard
                             continue;
 
                         if (box.Value.TryGetValue(key.KeyChar, out VideoSource src))
-                            client.SendCommand(new SuperSourceBoxSetCommand {Mask = SuperSourceBoxSetCommand.MaskFlags.Source, Index = box.Key, InputSource = src});
+                            client.SendCommand(new SuperSourceBoxSetCommand {Mask = SuperSourceBoxSetCommand.MaskFlags.Source, Index = box.Key, Source = src});
                     }
                 }
 
