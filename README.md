@@ -12,7 +12,7 @@ The Config.cs file shows the available configuration options, and should help in
 Note: The window opened by this program must be in focus for it to receive and handle any key presses.
 
 ### Related Projects
-* ATEM Client Library [LibAtem.XmlState](https://github.com/LibAtem/LibAtem)
+* ATEM Client Library [LibAtem](https://github.com/LibAtem/LibAtem)
 
 ### License
 
